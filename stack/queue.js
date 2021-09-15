@@ -32,4 +32,11 @@ class Queue {
 }
 const cola = new Queue()
 
-console.log(cola.enqueue('jol'))
+console.log(cola.enqueue('Uno'))
+console.log(cola.enqueue('Dos'))
+//console.log(cola.dequeue())
+console.log(cola.front())
+console.log(cola.print())
+console.log(cola.back())
+console.log(cola.size)
+
